@@ -2,3 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+footer {
+  background-color: #7453c5;
+}
+
+.line {
+  border-radius: 8px;
+  border: 4px solid var(--style, #000);
+  background: var(--linear, linear-gradient(90deg, #f09819 0%, #edde5d 100%));
+  box-shadow: 3px 4px 0px 0px #000;
+}
+
+body {
+  background-color: #512da8;
+  background-size: 100px 100px;
+  background-image: linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px);
+  background-position: top;
+}
