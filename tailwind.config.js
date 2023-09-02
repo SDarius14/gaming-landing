@@ -11,6 +11,10 @@ module.exports = {
         body: "#583B9E",
         secondary: "#7453C5",
       },
+      fontFamily: {
+        creepster: ["Creepster", "cursive"],
+        jakarta: ["Plus Jakarta Sans", "sans-serif"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

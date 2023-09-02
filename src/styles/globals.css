@@ -1,3 +1,8 @@
+/*  Jakarta */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+/* Creepster */
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -19,4 +24,32 @@ body {
   background-image: linear-gradient(to right, grey 1px, transparent 1px),
     linear-gradient(to bottom, grey 1px, transparent 1px);
   background-position: top;
+}
+
+/* Hero Section */
+
+.para {
+  color: var(--ffffff, #fff);
+  font-size: 156px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 105%; /* 163.8px */
+  text-transform: uppercase;
+}
+
+.para2 {
+  color: var(--ffffff, #fff);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.bar {
+  color: var(--Style, #000);
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  background: var(--Linear, linear-gradient(90deg, #f09819 0%, #edde5d 100%));
 }

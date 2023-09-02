@@ -26,9 +26,9 @@ function classNames(...classes) {
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <header className="bg-white relative">
+    <header className="bg-white">
       <nav
-        className="flex absolute top-0 right-0 left-0 items-center justify-between p-6 lg:px-20"
+        className="flex fixed top-0 right-0 left-0 z-50 items-center justify-between p-6 lg:px-20"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -69,9 +69,12 @@ const Navbar = () => {
             About
           </a>
         </Popover.Group>
+
+        {/*================================ Custom Button ========================= */}
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <CustomButton />
         </div>
+        {/*============================ End of Custom Button ========================= */}
       </nav>
       <Dialog
         as="div"

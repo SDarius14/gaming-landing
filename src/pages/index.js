@@ -1,11 +1,15 @@
 import Image from "next/image";
-import { Navbar, Footer } from "@/components";
+import { Navbar, Footer, Hero } from "@/components";
 
 export default function Home() {
   return (
     <main>
       <Navbar />
-      <div className="h-screen"></div>
+
+      <div>
+        <Hero />
+      </div>
+
       <Footer />
     </main>
   );
