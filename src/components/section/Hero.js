@@ -5,16 +5,18 @@ import CustomBar from "../CustomBar";
 
 const Hero = () => {
   return (
-    <section class="hero-section mx-auto max-w-7xl bg-clifford text-white  my-20 h-screen">
-      <div class="flex flex-row mt-5 relative ">
+    <section className="bg-clifford text-white lg:mb-32 lg:max-h-screen ">
+      <div class="hero-section mx-auto flex flex-row mt-20 mb-10 relative lg:max-w-7xl">
         <div class="flex flex-col gap-2">
           <span>
             <CustomButton />
           </span>
 
-          <p class="para font-creepster">explore the world</p>
-          <p class="para font-creepster">with your favorite</p>
-          <p class="para font-creepster">characters.</p>
+          <div>
+            <p class="para font-creepster">explore the world</p>
+            <p class="para font-creepster">with your favorite</p>
+            <p class="para font-creepster">characters.</p>
+          </div>
 
           <p class="para2 font-jakarta">
             In the MMORPG game Monyz, there are more than millions of characters
@@ -26,7 +28,7 @@ const Hero = () => {
           <p class="para2 font-jakarta">killing monsters and monster kings.</p>
           <div class="py-24 border border-white w-96"></div>
         </div>
-        <div class="absolute right-0 top-64">
+        <div class="absolute lg:right-0 lg:top-64">
           <Image
             className="object-contain"
             src="/monsterbg.png"
@@ -35,7 +37,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="mt-10">
+      <div className="">
         <CustomBar />
       </div>
     </section>
