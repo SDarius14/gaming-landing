@@ -5,7 +5,12 @@ import CustomBar from "../CustomBar";
 
 const Hero = () => {
   return (
-    <section className="h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-screen-xl flex flex-col justify-center items-center lg:mt-10">
+    // remove the gap
+    <section
+      className="h-screen gap-32 mx-auto w-10/12 md:max-w-xl lg:max-w-screen-xl
+    
+    flex flex-col justify-center items-center lg:mt-10"
+    >
       <div
         className=" hero-section lg:relative  
          "
@@ -26,9 +31,9 @@ const Hero = () => {
               and get rare items by killing monsters and monster kings.
             </p>
           </div>
-          <div className="py-16 md:py-20 lg:py-24 border border-white w-full lg:w-96"></div>
+          <div className="card py-16 md:py-20 lg:py-24 w-full lg:w-96"></div>
         </div>
-        <div className="lg:absolute lg:right-0 lg:top-64">
+        <div className="lg:absolute hidden lg:right-0 lg:top-64">
           <Image
             className="object-contain"
             src="/monsterbg.png"
@@ -37,7 +42,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="mt-5">
+      <div className="mt-3">
         <CustomBar />
       </div>
     </section>
