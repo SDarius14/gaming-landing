@@ -30,19 +30,45 @@ body {
 
 .para {
   color: var(--ffffff, #fff);
-  font-size: 156px;
-  font-style: normal;
+  font-size: 36px;
   font-weight: 400;
-  line-height: 105%; /* 163.8px */
+  line-height: 105%;
   text-transform: uppercase;
+}
+
+/* Media query for medium screens (768px and above) */
+@media (min-width: 768px) {
+  .para {
+    font-size: 75px;
+  }
+}
+
+/* Media query for large screens (1024px and above) */
+@media (min-width: 1024px) {
+  .para {
+    font-size: 156px;
+  }
 }
 
 .para2 {
   color: var(--ffffff, #fff);
-  font-size: 18px;
-  font-style: normal;
+  font-size: 14px;
   font-weight: 400;
   line-height: 150%;
+}
+
+/* Media query for medium screens (768px and above) */
+@media (min-width: 768px) {
+  .para2 {
+    font-size: 16px;
+  }
+}
+
+/* Media query for large screens (1024px and above) */
+@media (min-width: 1024px) {
+  .para2 {
+    font-size: 18px;
+  }
 }
 
 .bar {

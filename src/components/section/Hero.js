@@ -5,39 +5,39 @@ import CustomBar from "../CustomBar";
 
 const Hero = () => {
   return (
-    <section className="bg-clifford text-white lg:mb-32 lg:max-h-screen ">
-      <div class="hero-section mx-auto flex flex-row mt-20 mb-10 relative lg:max-w-7xl">
-        <div class="flex flex-col gap-2">
+    <section className="h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-screen-xl flex flex-col justify-center items-center lg:mt-10">
+      <div
+        className=" hero-section lg:relative  
+         "
+      >
+        <div className="flex flex-col gap-2">
           <span>
             <CustomButton />
           </span>
 
-          <div>
-            <p class="para font-creepster">explore the world</p>
-            <p class="para font-creepster">with your favorite</p>
-            <p class="para font-creepster">characters.</p>
+          <div className="para font-creepster">
+            <p>explore the world with your favorite characters.</p>
           </div>
 
-          <p class="para2 font-jakarta">
-            In the MMORPG game Monyz, there are more than millions of characters
-          </p>
-          <p class="para2 font-jakarta">
-            with different hero roles that you can use to explore and get rare
-            items by
-          </p>
-          <p class="para2 font-jakarta">killing monsters and monster kings.</p>
-          <div class="py-24 border border-white w-96"></div>
+          <div>
+            <p className="para2 font-jakarta md:max-w-2xl lg:max-w-2xl">
+              In the MMORPG game Monyz, there are more than millions of
+              characters with different hero roles that you can use to explore
+              and get rare items by killing monsters and monster kings.
+            </p>
+          </div>
+          <div className="py-16 md:py-20 lg:py-24 border border-white w-full lg:w-96"></div>
         </div>
-        <div class="absolute lg:right-0 lg:top-64">
+        <div className="lg:absolute lg:right-0 lg:top-64">
           <Image
             className="object-contain"
             src="/monsterbg.png"
-            width={550}
-            height={550}
+            width={500}
+            height={400}
           />
         </div>
       </div>
-      <div className="">
+      <div className="mt-5">
         <CustomBar />
       </div>
     </section>
