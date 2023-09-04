@@ -57,3 +57,9 @@ body {
   background: #d9d9d9;
   box-shadow: 4px 6px 0px 0px #000;
 }
+
+.image {
+  width: 40% !important;
+  position: relative !important;
+  left: 60% !important;
+}

@@ -8,7 +8,6 @@ export default function Home() {
 
       <div>
         <Hero />
-        <Bar />
       </div>
 
       <Footer />
