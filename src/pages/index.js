@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Navbar, Footer, Hero } from "@/components";
+import { Navbar, Footer, Hero, Bar } from "@/components";
 
 export default function Home() {
   return (
@@ -8,6 +8,7 @@ export default function Home() {
 
       <div>
         <Hero />
+        <Bar />
       </div>
 
       <Footer />
