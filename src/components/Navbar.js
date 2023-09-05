@@ -72,7 +72,7 @@ const Navbar = () => {
 
         {/*================================ Custom Button ========================= */}
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <CustomButton />
+          <CustomButton title="Download Apps" variant="primary-btn" />
         </div>
         {/*============================ End of Custom Button ========================= */}
       </nav>

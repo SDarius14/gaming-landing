@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Navbar, Footer, Hero, Bar } from "@/components";
+import { Navbar, Footer, Hero } from "@/components";
 
 export default function Home() {
   return (
