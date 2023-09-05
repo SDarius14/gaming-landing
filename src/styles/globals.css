@@ -11,6 +11,14 @@ footer {
   background-color: #7453c5;
 }
 
+.char-background {
+  background-color: #7453c5;
+}
+
+.residence-background {
+  background-color: #583b9e;
+}
+
 .primary-btn {
   border-radius: 8px;
   border: 4px solid var(--style, #000);
@@ -71,4 +79,28 @@ body {
   width: 40% !important;
   position: relative !important;
   left: 60% !important;
+}
+
+/* Event Section */
+
+.event {
+  background-image: url("/treasure.jpg");
+  border-radius: 40px;
+  border: 8px solid var(--Style, #000);
+  background: #d9d9d9;
+  box-shadow: 11px 6px 0px 0px #000;
+}
+
+/* Pre-Footer */
+
+.pre-footer {
+  border-radius: 48px;
+  border: 9px solid var(--Style, #000);
+  background: var(--Linear, linear-gradient(90deg, #f09819 0%, #edde5d 100%));
+  box-shadow: 8px 15px 0px 0px #000;
+}
+
+.pre-footer-font {
+  color: var(--Style, #000);
+  font-weight: 400;
 }

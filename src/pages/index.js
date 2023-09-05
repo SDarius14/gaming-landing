@@ -1,5 +1,13 @@
 import Image from "next/image";
-import { Navbar, Footer, Hero } from "@/components";
+import {
+  Navbar,
+  Footer,
+  Hero,
+  Event,
+  Character,
+  Battle,
+  Residence,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -8,6 +16,10 @@ export default function Home() {
 
       <div>
         <Hero />
+        <Event />
+        <Character />
+        <Battle />
+        <Residence />
       </div>
 
       <Footer />
