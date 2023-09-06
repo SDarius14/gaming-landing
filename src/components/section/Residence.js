@@ -19,10 +19,13 @@ const Residence = () => {
             become a talented alchemist.
           </p>
           <div>
-            <CustomButton title="See All" variant="primary-btn-sm" />
+            <CustomButton
+              title="See All"
+              variant="font-jakarta primary-btn xl:w-40"
+            />
           </div>
         </div>
-        <div className="event px-80 py-52"></div>
+        <div className="residence px-80 py-52"></div>
       </div>
       <PreFooter />
     </section>

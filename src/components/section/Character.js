@@ -16,8 +16,14 @@ const Character = () => {
             veniam consequat sunt nostrud amet.Amet minim mollit non deserunt
           </p>
           <div className="flex gap-5">
-            <CustomButton title="Play Now" variant="primary-btn-sm" />
-            <CustomButton title="Read More" variant="primary-btn-sm" />
+            <CustomButton
+              title="Play Now"
+              variant="font-jakarta primary-btn xl:w-40"
+            />
+            <CustomButton
+              title="Read More"
+              variant="font-jakarta primary-btn xl:w-40"
+            />
           </div>
         </div>
         <div className="grid grid-cols-3">
