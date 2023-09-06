@@ -7,7 +7,7 @@ const Event = () => {
     <section>
       <div
         className="relative min-h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 
-    flex flex-col justify-center items-center xl:gap-14"
+    flex flex-col justify-center items-center gap-10 md:gap-12 xl:gap-14"
       >
         <h1 className="para font-creepster items-center text-4xl w-56 lg:w-auto xl:text-6xl">
           PRE REGISTER - NEW EVENT 2023
@@ -26,11 +26,11 @@ const Event = () => {
         <div className="flex gap-2 lg:gap-5 xl:gap-10">
           <CustomButton
             title="Follow Event"
-            variant="font-jakarta primary-btn xl:w-40"
+            variant="text-font-jakarta primary-btn text-sm lg:text-base py-2 px-4 lg:py-4 lg:px-6 xl:w-40"
           />
           <CustomButton
             title="Read More"
-            variant="font-jakarta primary-btn xl:w-40"
+            variant="font-jakarta secondary-btn text-sm lg:text-base py-2 px-4 lg:py-4 lg:px-6  xl:w-40"
           />
         </div>
       </div>

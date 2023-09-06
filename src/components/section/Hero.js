@@ -19,7 +19,7 @@ const Hero = () => {
             <span className="">
               <CustomButton
                 title="MMORP MOBILE"
-                variant="font-jakarta primary-btn-sm"
+                variant="font-jakarta primary-btn-sm text-sm lg:text-base py-2 px-4 lg:py-4"
               />
             </span>
 
