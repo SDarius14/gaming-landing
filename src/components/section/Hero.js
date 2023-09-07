@@ -19,24 +19,24 @@ const Hero = () => {
             <span className="">
               <CustomButton
                 title="MMORP MOBILE"
-                variant="font-jakarta primary-btn-sm text-sm lg:text-base py-2 px-4 lg:py-4"
+                variant="font-jakarta primary-btn-sm text-sm lg:text-base py-2 px-4"
               />
             </span>
 
-            <div className="para text-center lg:text-left font-creepster text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
+            <div className="para text-center md:text-left font-creepster text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
               <p>explore the world with your favorite characters.</p>
             </div>
 
             <div>
-              <p className="para2 text-center font-jakarta text-sm md:max-w-xs lg:max-w-xl 2xl:max-w-4xl md:text-base lg:text-lg 2xl:text-xl">
+              <p className="para2 text-center lg:text-left font-jakarta text-sm md:max-w-xs lg:max-w-xl 2xl:max-w-4xl md:text-base lg:text-lg 2xl:text-xl">
                 In the MMORPG game Monyz, there are more than millions of
                 characters with different hero roles that you can use to explore
                 and get rare items by killing monsters and monster kings.
               </p>
             </div>
-            <div className="card hero-bg py-16 md:py-20 lg:py-26 xl:py-32 w-full lg:w-96 2xl:w-5/12 mt-10"></div>
+            <div className="card hero-bg p-24 md:p-36 lg:p-42 xl:p-42 w-full lg:w-3/5 2xl:w-1/2 mt-10"></div>
           </div>
-          <div className="absolute top-80 md:top-44 xl:top-52 2xl:top-32">
+          <div className="absolute top-80 lg:top-48 md:top-28 xl:top-56 2xl:top-36">
             <Image className="image object-contain" src="/monsterbg.png" fill />
           </div>
         </div>

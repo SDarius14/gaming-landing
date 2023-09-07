@@ -13,9 +13,12 @@ const Character = () => {
             Warrior
           </h1>
           <p className="para2 font-jakarta text-base leading-snug">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. Exercitation
-            veniam consequat sunt nostrud amet.Amet minim mollit non deserunt
+            Warriors have always held a special place in the world of gaming.
+            From epic battles on distant planets to historic clashes in ancient
+            realms, the gaming world is filled with iconic warrior characters
+            who have captured the hearts of players around the globe. Whether
+            you prefer fantasy RPGs, intense first-person shooters, or strategy
+            games, there's a warrior-themed game for everyone.
           </p>
           <div className="flex gap-5 mx-auto">
             <CustomButton

@@ -56,7 +56,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Example() {
+export default function NavbarSample() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (

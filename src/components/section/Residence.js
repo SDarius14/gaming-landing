@@ -25,7 +25,15 @@ const Residence = () => {
             />
           </div>
         </div>
-        <div className="residence w-full h-96 order-1 lg:order-2"></div>
+        <div className="relative residence w-full h-96 2xl:p-64 order-1 lg:order-2">
+          <div className="absolute -bottom-20 -right-16 md:-right-24 lg:-right-24 xl:-right-32  2xl:-right-48">
+            <img
+              className="w-52 md:w-60 lg:w-60 xl:w-72 2xl:w-96"
+              src="/batmonster.png"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
       <PreFooter />
     </section>

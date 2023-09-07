@@ -6,7 +6,7 @@ const Event = () => {
   return (
     <section>
       <div
-        className="relative min-h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 
+        className=" min-h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 
     flex flex-col justify-center items-center gap-10 md:gap-12 xl:gap-14"
       >
         <h1 className="para font-creepster items-center text-4xl w-56 lg:w-auto xl:text-6xl">
@@ -17,12 +17,15 @@ const Event = () => {
           awards that will be given to all Monzy Forever Love players based on
           the milestone participation number.
         </h2>
-        <div className="event w-full h-72 lg:h-80 xl:h-96"></div>
-        {/* <Image
-          className="absolute top-5 left-5"
-          src="/elephantmonster.png"
-          fills
-        /> */}
+        <div className="event relative w-full h-72 lg:h-80 xl:h-96">
+          <div className="absolute bottom-48 -left-7 lg:bottom-56 xl:-left-10 xl:bottom-60 2xl-left-10 2xl:bottom-56">
+            <img
+              className="w-20 xl:w-28 2xl:w-32"
+              src="/elephantmonster.png"
+              alt=""
+            />
+          </div>
+        </div>
         <div className="flex gap-2 lg:gap-5 xl:gap-10">
           <CustomButton
             title="Follow Event"

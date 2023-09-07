@@ -25,7 +25,15 @@ const Battle = () => {
             />
           </div>
         </div>
-        <div className="battle w-full h-72 lg:h-96"></div>
+        <div className="battle relative w-full h-72 lg:h-96 md:p-48 xl:p-52 2xl:p-60">
+          <div className="absolute -bottom-14 -left-16 lg:-bottom-20 lg:-left-24">
+            <img
+              className="w-40 md:w-44 lg:w-72"
+              src="/eelmonster.png"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
       <CustomBar />
     </section>
