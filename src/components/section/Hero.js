@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section>
       <div
-        className="mt-20 lg:h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-screen-2xl
+        className="mt-20 lg:mt-3 lg:h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-screen-2xl
     flex flex-col lg:justify-end items-center gap-5 xl:gap-8 2xl:gap-20"
       >
         <div
@@ -34,7 +34,7 @@ const Hero = () => {
                 and get rare items by killing monsters and monster kings.
               </p>
             </div>
-            <div className="relative card hero-bg p-24 md:p-36 lg:p-42 xl:p-44 2xl:p-0 2xl:h-72 w-full lg:w-3/5 2xl:max-w-2xl mt-10">
+            <div className="relative card hero-bg p-24 md:p-36 lg:p-32 xl:p-44 2xl:p-0 2xl:h-72 w-full lg:w-3/5 2xl:max-w-2xl mt-10">
               <img
                 className="hero-button absolute"
                 src="/playbutton.png"
@@ -42,8 +42,8 @@ const Hero = () => {
               />
             </div>
           </div>
-          <div className="absolute top-80 lg:top-48 md:top-28 xl:top-56 2xl:top-24">
-            <Image className="image object-contain" src="/monsterbg.png" fill />
+          <div className="monster absolute">
+            <img className="" src="/monsterbg.png" alt="" />
           </div>
         </div>
         <div className="">
