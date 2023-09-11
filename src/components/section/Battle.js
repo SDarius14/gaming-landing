@@ -6,7 +6,7 @@ const Battle = () => {
   return (
     <section>
       <div
-        className="order min-h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-screen-2xl
+        className="order my-10 md:my-16 lg:my-20 2xl:min-h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-screen-2xl
     flex flex-col justify-center gap-12 "
       >
         <div className="gap-4 flex flex-col flex-wrap md:flex-row justify-between items-center text-center md:text-left">

@@ -6,10 +6,10 @@ const Residence = () => {
   return (
     <section className="residence-background">
       <div
-        className="min-h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-screen-2xl
+        className="2xl:min-h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-screen-2xl
     flex flex-col lg:flex-row justify-center items-center gap-7 md:gap-12 lg:gap-2"
       >
-        <div className="flex flex-col gap-6 order-2 lg:order-1">
+        <div className="flex flex-col gap-6 order-2 lg:order-1 mb-10 lg:my-20 my-0">
           <h1 className="para font-creepster lg:w-0 text-5xl lg:text-7xl xl:text-8xl">
             Endless Possibilities
           </h1>
@@ -25,7 +25,7 @@ const Residence = () => {
             />
           </div>
         </div>
-        <div className="relative residence w-full h-96 2xl:p-64 order-1 lg:order-2">
+        <div className="mt-10 md:mt-14 lg:mt-0 relative residence w-full h-96 2xl:p-64 order-1 lg:order-2">
           <div className="absolute -bottom-20 -right-16 md:-right-24 lg:-right-24 xl:-right-32  2xl:-right-48">
             <img
               className="w-52 md:w-60 lg:w-60 xl:w-72 2xl:w-96"
