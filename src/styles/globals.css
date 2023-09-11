@@ -156,3 +156,44 @@ body {
   border: 8px solid var(--Style, #000);
   box-shadow: 11px 6px 0px 0px #000;
 }
+
+.hero-button {
+  right: 140px;
+  width: 50px;
+}
+
+/* Styles for screens with a minimum width of 768px (md) */
+@media (min-width: 768px) {
+  .hero-button {
+    /* Adjusted styles for md screens */
+    right: 250px;
+    bottom: 100px;
+  }
+}
+
+/* Styles for screens with a minimum width of 1024px (lg) */
+@media (min-width: 1024px) {
+  .hero-button {
+    /* Adjusted styles for lg screens */
+    right: 300px;
+    bottom: 120px;
+  }
+}
+
+/* Styles for screens with a minimum width of 1280px (xl) */
+@media (min-width: 1280px) {
+  .hero-button {
+    /* Adjusted styles for xl screens */
+    right: 350px;
+    bottom: 140px;
+  }
+}
+
+/* Styles for screens with a minimum width of 1536px (2xl) */
+@media (min-width: 1536px) {
+  .hero-button {
+    /* Adjusted styles for 2xl screens */
+    right: 300px;
+    bottom: 120px;
+  }
+}
