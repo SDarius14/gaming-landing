@@ -5,11 +5,11 @@ const Character = () => {
   return (
     <section className="char-background">
       <div
-        className="min-h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-screen-2xl
-    flex flex-col justify-center lg:flex-row items-center gap-10"
+        className="mx-auto w-10/12 2xl:h-screen md:max-w-xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-screen-xl
+    flex flex-col justify-between lg:flex-row items-center"
       >
-        <div className="flex flex-col gap-5 lg:w-4/12 text-center">
-          <h1 className="para font-creepster text-5xl lg:text-7xl xl:text-8xl">
+        <div className="order-2 lg:order-1 my-10 md:my-16 lg:my-20 flex flex-col gap-10 lg:w-4/12 text-center">
+          <h1 className="para font-creepster text-5xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
             Warrior
           </h1>
           <p className="para2 font-jakarta text-base leading-snug">
@@ -20,7 +20,7 @@ const Character = () => {
             you prefer fantasy RPGs, intense first-person shooters, or strategy
             games, there's a warrior-themed game for everyone.
           </p>
-          <div className="flex gap-5 mx-auto">
+          <div className="flex gap-5 mx-auto ">
             <CustomButton
               title="Play Now"
               variant="font-jakarta primary-btn xl:w-40 text-sm lg:text-base py-2 px-4 lg:py-4 lg:px-4"
@@ -31,7 +31,14 @@ const Character = () => {
             />
           </div>
         </div>
-        <div className="grid lg:grid-cols-2">
+        <div className="mt-10 lg:mt-0 order-1 lg:order-2 grid md:grid-cols-2 lg:grid-cols-3">
+          <div className="py-20 px-20 border border-black"></div>
+          <div className="py-20 px-20 border border-black"></div>
+          <div className="py-20 px-20 border border-black"></div>
+          <div className="py-20 px-20 border border-black"></div>
+          <div className="py-20 px-20 border border-black"></div>
+          <div className="py-20 px-20 border border-black"></div>
+          <div className="py-20 px-20 border border-black"></div>
           <div className="py-20 px-20 border border-black"></div>
         </div>
       </div>
