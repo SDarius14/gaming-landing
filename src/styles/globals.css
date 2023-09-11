@@ -150,6 +150,7 @@ body {
   box-shadow: 11px 6px 0px 0px #000;
 }
 
+/* Hero Button Responsive */
 .hero-button {
   right: 50%;
   bottom: 35%;
@@ -189,8 +190,49 @@ body {
   }
 }
 
+/*End of  Hero Button Responsive */
+
+/* Hero Monster Responsive */
+
 .monster {
-  top: 10%;
-  left: 65%;
-  width: 600px;
+  bottom: -5%;
+  right: 75%;
+  width: 100px;
 }
+
+/* Styles for screens with a minimum width of 768px (md) */
+@media (min-width: 768px) {
+  .monster {
+    top: 10%;
+    left: 52%;
+    width: 290px;
+  }
+}
+
+/* Styles for screens with a minimum width of 1024px (lg) */
+@media (min-width: 1024px) {
+  .monster {
+    top: 20%;
+    left: 65%;
+    width: 420px;
+  }
+}
+
+/* Styles for screens with a minimum width of 1280px (xl) */
+@media (min-width: 1280px) {
+  .monster {
+    top: 25%;
+    width: 500px;
+  }
+}
+
+/* Styles for screens with a minimum width of 1536px (2xl) */
+@media (min-width: 1536px) {
+  .monster {
+    top: 10%;
+    left: 65%;
+    width: 600px;
+  }
+}
+
+/* End of Hero Monster Responsive*/

@@ -34,7 +34,7 @@ const Hero = () => {
                 and get rare items by killing monsters and monster kings.
               </p>
             </div>
-            <div className="relative card hero-bg p-24 md:p-36 lg:p-32 xl:p-44 2xl:p-0 2xl:h-72 w-full lg:w-3/5 2xl:max-w-2xl mt-10">
+            <div className="relative card hero-bg p-24 md:p-36 lg:p-32 xl:p-44 2xl:p-0 2xl:h-72 lg:w-3/5 2xl:max-w-2xl mt-10">
               <img
                 className="hero-button absolute"
                 src="/playbutton.png"
