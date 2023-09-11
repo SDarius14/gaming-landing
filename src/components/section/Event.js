@@ -17,7 +17,7 @@ const Event = () => {
           awards that will be given to all Monzy Forever Love players based on
           the milestone participation number.
         </h2>
-        <div className="event relative w-full h-72 lg:h-80 xl:h-96">
+        <div className="event relative w-full h-72 lg:h-80 xl:h-96 2xl:p-64">
           <div className="absolute bottom-48 -left-7 lg:bottom-56 xl:-left-10 xl:bottom-60 2xl-left-10 2xl:bottom-56">
             <img
               className="w-20 xl:w-28 2xl:w-32"
