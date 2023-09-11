@@ -158,8 +158,11 @@ body {
 }
 
 .hero-button {
-  right: 140px;
-  width: 50px;
+  right: 50%;
+  bottom: 36%;
+  left: 40%;
+
+  width: 55px;
 }
 
 /* Styles for screens with a minimum width of 768px (md) */
@@ -195,5 +198,6 @@ body {
     /* Adjusted styles for 2xl screens */
     right: 300px;
     bottom: 120px;
+    width: 80px;
   }
 }
