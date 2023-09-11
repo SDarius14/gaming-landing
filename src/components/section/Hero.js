@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section>
       <div
-        className="mt-20 lg:mt-3 lg:h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-screen-2xl
+        className="mt-24 md:mt-28 lg:mt-3 lg:h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-screen-2xl
     flex flex-col lg:justify-end items-center gap-5 xl:gap-8 2xl:gap-20"
       >
         <div
@@ -23,7 +23,7 @@ const Hero = () => {
               />
             </span>
 
-            <div className="para font-creepster text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
+            <div className="para mb-3 font-creepster text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
               <p>explore the world with your favorite characters.</p>
             </div>
 
@@ -34,7 +34,7 @@ const Hero = () => {
                 and get rare items by killing monsters and monster kings.
               </p>
             </div>
-            <div className="relative card hero-bg p-24 md:p-36 lg:p-32 xl:p-44 2xl:p-0 2xl:h-72 lg:w-3/5 2xl:max-w-2xl mt-10">
+            <div className="relative card hero-bg p-24 md:p-36 lg:p-32 xl:p-44 2xl:p-0 2xl:h-72 lg:w-3/5 2xl:max-w-2xl mt-5 md:mt-10">
               <img
                 className="hero-button absolute"
                 src="/playbutton.png"

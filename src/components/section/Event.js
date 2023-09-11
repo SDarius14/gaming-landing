@@ -6,10 +6,10 @@ const Event = () => {
   return (
     <section>
       <div
-        className=" min-h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 
-    flex flex-col justify-center items-center gap-10 md:gap-12 xl:gap-14"
+        className="my-10 md:my-12 lg:my-16 xl:my-20 2xl:my-0 2xl:h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 
+    flex flex-col justify-center items-center gap-5 md:gap-7 lg:gap-10 xl:gap-10"
       >
-        <h1 className="para font-creepster items-center text-4xl w-56 lg:w-auto xl:text-6xl">
+        <h1 className="para font-creepster items-center text-4xl w-56 md:w-auto xl:text-6xl">
           PRE REGISTER - NEW EVENT 2023
         </h1>
         <h2 className="para2 font-jakarta text-center w-auto xl:w-3/5">
@@ -18,7 +18,7 @@ const Event = () => {
           the milestone participation number.
         </h2>
         <div className="event relative w-full h-72 lg:h-80 xl:h-96 2xl:p-64">
-          <div className="absolute bottom-48 -left-7 lg:bottom-56 xl:-left-10 xl:bottom-60 2xl-left-10 2xl:bottom-56">
+          <div className="absolute bottom-48 -left-7 lg:bottom-56 xl:-left-10 xl:bottom-60 2xl-left-10 2xl:bottom-96">
             <img
               className="w-20 xl:w-28 2xl:w-32"
               src="/elephantmonster.png"
