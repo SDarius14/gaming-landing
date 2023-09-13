@@ -1,5 +1,5 @@
 import React from "react";
-import { Fragment, useState } from "react";
+import { Fragment, useState, useEffect } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import {
   ArrowPathIcon,
@@ -25,8 +25,33 @@ function classNames(...classes) {
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      const isScrolledDown = prevScrollPos < currentScrollPos;
+      const isScrolledUp = prevScrollPos > currentScrollPos;
+
+      setVisible(!(isScrolledDown || isScrolledUp));
+
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [prevScrollPos]);
+
   return (
-    <header className="bg-white">
+    <header
+      className={`bg-white transition-all ${
+        visible ? "" : "transform -translate-y-full"
+      }`}
+    >
       <nav
         className="flex fixed top-0 right-0 left-0 z-50 items-center justify-between p-6 lg:px-20"
         aria-label="Global"
@@ -37,8 +62,8 @@ const Navbar = () => {
             <Image
               className="object-contain"
               src="/KNIGHTING.png"
-              width={100}
-              height={20}
+              width={150}
+              height={100}
             />
           </a>
         </div>
