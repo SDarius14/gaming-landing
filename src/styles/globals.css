@@ -15,10 +15,6 @@ body {
   background-position: top;
 }
 
-.residence-background {
-  background-color: #583b9e;
-}
-
 footer {
   background-color: #7453c5;
 }
@@ -291,6 +287,53 @@ footer {
 
 /* =================== ******* End of Battle Section ******* ================= */
 
+/* =================== *******Residence Section ******* ================= */
+
+.residence-background {
+  background-color: #583b9e;
+}
+
+.residence {
+  background-image: url("/haunted.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40px;
+  border: 8px solid var(--Style, #000);
+  box-shadow: 11px 6px 0px 0px #000;
+}
+
+.residence-container {
+  @apply 2xl:min-h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-screen-2xl
+  flex flex-col lg:flex-row justify-center items-center gap-7 md:gap-12 lg:gap-2;
+}
+
+.residence__text-container {
+  @apply flex flex-col gap-6 order-2 lg:order-1 mb-10 lg:my-20 my-0;
+}
+
+.residence-title {
+  @apply font-normal uppercase text-white font-creepster lg:w-0 text-5xl lg:text-7xl xl:text-8xl;
+}
+
+.residence-subtitle {
+  @apply font-normal text-white font-jakarta lg:w-3/4 text-base lg:text-lg xl:text-xl;
+}
+
+.residence__button-container {
+  @apply text-center lg:text-left;
+}
+
+.residence__image-container {
+  @apply mt-10 md:mt-14 lg:mt-0 relative residence w-full h-96 2xl:p-64 order-1 lg:order-2;
+}
+
+.residence__monster-image {
+  @apply w-52 md:w-60 lg:w-60 xl:w-72 2xl:w-96;
+}
+
+/* =================== *******End of Residence Section ******* ================= */
+
 /* Pre-Footer */
 
 .pre-footer {
@@ -313,16 +356,3 @@ footer {
 }
 
 /* Residence */
-
-.residence {
-  background-image: url("/haunted.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.residence {
-  border-radius: 40px;
-  border: 8px solid var(--Style, #000);
-  box-shadow: 11px 6px 0px 0px #000;
-}

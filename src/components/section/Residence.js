@@ -3,33 +3,42 @@ import CustomButton from "../CustomButton";
 import PreFooter from "../PreFooter";
 
 const Residence = () => {
+  const [
+    { title: buttonTextAll, variant: buttonVariantAll },
+    {
+      title: residenceTitle,
+      subtitle: residenceSubtitle,
+      imageUrlMonster: monsterImage,
+    },
+  ] = [
+    {
+      title: "See All",
+      variant:
+        "font-jakarta primary-btn text-sm lg:text-base py-2 px-4 lg:py-4 lg:px-6 xl:w-40",
+    },
+    {
+      title: "Endless Possibilities",
+      subtitle:
+        "Cozy up in your uniquely decorated residence, sit and listen to insects around a campfire, embark on a fishing trip with friends, or become a talented alchemist.",
+      imageUrlMonster: "/batmonster.png",
+    },
+  ];
+
   return (
     <section className="residence-background">
-      <div
-        className="2xl:min-h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-screen-2xl
-    flex flex-col lg:flex-row justify-center items-center gap-7 md:gap-12 lg:gap-2"
-      >
-        <div className="flex flex-col gap-6 order-2 lg:order-1 mb-10 lg:my-20 my-0">
-          <h1 className="font-normal uppercase text-white font-creepster lg:w-0 text-5xl lg:text-7xl xl:text-8xl">
-            Endless Possibilities
-          </h1>
-          <p className="font-normal text-white font-jakarta lg:w-3/4 text-base lg:text-lg xl:text-xl">
-            Cozy up in your uniquely decorated residence, sit and listen to
-            insects around a campfire, embark on a fishing trip with friends, or
-            become a talented alchemist.
-          </p>
-          <div className="text-center lg:text-left">
-            <CustomButton
-              title="See All"
-              variant=" font-jakarta primary-btn text-sm lg:text-base py-2 px-4 lg:py-4 lg:px-6 xl:w-40"
-            />
+      <div className="residence-container">
+        <div className="residence__text-container">
+          <h1 className="residence-title">{residenceTitle}</h1>
+          <p className="residence-subtitle">{residenceSubtitle}</p>
+          <div className="residence__button-container">
+            <CustomButton title={buttonTextAll} variant={buttonVariantAll} />
           </div>
         </div>
-        <div className="mt-10 md:mt-14 lg:mt-0 relative residence w-full h-96 2xl:p-64 order-1 lg:order-2">
+        <div className="residence__image-container">
           <div className="absolute -bottom-20 -right-16 md:-right-24 lg:-right-24 xl:-right-32  2xl:-right-48">
             <img
-              className="w-52 md:w-60 lg:w-60 xl:w-72 2xl:w-96"
-              src="/batmonster.png"
+              className="residence__monster-image"
+              src={monsterImage}
               alt=""
             />
           </div>
