@@ -62,7 +62,7 @@ const Navbar = () => {
             <Image
               className="object-contain"
               src="/KNIGHTING.png"
-              width={150}
+              width={130}
               height={100}
             />
           </a>

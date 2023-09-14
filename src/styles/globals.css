@@ -48,7 +48,7 @@ body {
   background-position: top;
 }
 
-/* Hero Section */
+/* ====================== Hero Section ===================== */
 
 .para {
   color: var(--ffffff, #fff);
@@ -67,6 +67,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* =================== End of Hero Section =========================== */
 
 /* Custom Bar */
 .bar {

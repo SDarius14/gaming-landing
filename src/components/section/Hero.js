@@ -5,6 +5,18 @@ import CustomBar from "../CustomBar";
 import NavbarButton from "../NavbarButton";
 
 const Hero = () => {
+  const [buttonInfo, heroInfo] = [
+    {
+      title: "MMORP MOBILE",
+      variant: "font-jakarta primary-btn-sm text-sm lg:text-base py-1 px-2",
+    },
+    {
+      title: "explore the world with your favorite characters.",
+      subtitle:
+        "In the MMORPG game Monyz, there are more than millions of characters with different hero roles that you can use to explore and get rare items by killing monsters and monster kings.",
+    },
+  ];
+
   return (
     <section>
       <div
@@ -18,20 +30,18 @@ const Hero = () => {
           <div className="flex flex-col gap-2 ">
             <span className="">
               <CustomButton
-                title="MMORP MOBILE"
-                variant="font-jakarta primary-btn-sm text-sm lg:text-base py-1 px-2"
+                title={buttonInfo.title}
+                variant={buttonInfo.variant}
               />
             </span>
 
             <div className="para mb-3 font-creepster text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
-              <p>explore the world with your favorite characters.</p>
+              <h1>{heroInfo.title}</h1>
             </div>
 
             <div>
               <p className="para2 lg:text-left font-jakarta text-sm md:max-w-xs lg:max-w-xl 2xl:max-w-4xl md:text-base lg:text-lg 2xl:text-xl">
-                In the MMORPG game Monyz, there are more than millions of
-                characters with different hero roles that you can use to explore
-                and get rare items by killing monsters and monster kings.
+                {heroInfo.subtitle}
               </p>
             </div>
             <div className="relative card hero-bg p-24 md:p-36 lg:p-32 xl:p-44 2xl:p-0 2xl:h-72 lg:w-3/5 2xl:max-w-2xl mt-5 md:mt-10">
