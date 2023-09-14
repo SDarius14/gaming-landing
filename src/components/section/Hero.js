@@ -7,9 +7,12 @@ import NavbarButton from "../NavbarButton";
 const Hero = () => {
   const [
     { title: buttonText, variant: buttonVariant },
-    { title: heroTitle, subtitle: heroSubtitle },
-    { imageUrl: playButtonImage },
-    { imageUrl: monsterImage },
+    {
+      title: heroTitle,
+      subtitle: heroSubtitle,
+      imageUrlButton: playButtonImage,
+      imageUrlMonster: monsterImage,
+    },
   ] = [
     {
       title: "MMORP MOBILE",
@@ -19,12 +22,8 @@ const Hero = () => {
       title: "explore the world with your favorite characters.",
       subtitle:
         "In the MMORPG game Monyz, there are more than millions of characters with different hero roles that you can use to explore and get rare items by killing monsters and monster kings.",
-    },
-    {
-      imageUrl: "/playbutton.png",
-    },
-    {
-      imageUrl: "/monster.png",
+      imageUrlButton: "/playbutton.png",
+      imageUrlMonster: "/monster.png",
     },
   ];
 

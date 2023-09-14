@@ -15,16 +15,16 @@ body {
   background-position: top;
 }
 
-footer {
-  background-color: #7453c5;
-}
-
 .char-background {
   background-color: #7453c5;
 }
 
 .residence-background {
   background-color: #583b9e;
+}
+
+footer {
+  background-color: #7453c5;
 }
 
 /*=============== Button Variant ========== */
@@ -50,9 +50,9 @@ footer {
   box-shadow: 3px 4px 0px 0px #000;
 }
 
-/* =============== End of Button Variant ============= */
+/* ========= End of Button Variant ========== */
 
-/* ====================== Hero Section ===================== */
+/* ====================== **** Hero Section **** ===================== */
 
 .hero-container {
   @apply mt-24 md:mt-28 lg:mt-3 lg:h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-screen-2xl
@@ -78,7 +78,7 @@ footer {
   background-size: cover;
 }
 
-/* ====================== Hero Monster Responsive ===================*/
+/* =========== Hero Monster Responsive ===========*/
 
 .monster {
   bottom: -5%;
@@ -123,7 +123,7 @@ footer {
 
 /* End of Hero Monster Responsive*/
 
-/* =================== Hero Button Responsive ====================*/
+/* ========== Hero Button Responsive =========*/
 
 .hero-button__container {
   @apply flex flex-col gap-2;
@@ -165,7 +165,7 @@ footer {
   }
 }
 
-/* =================== End of Hero Section =========================== */
+/* ================****** End of Hero Section ******=============== */
 
 /* Custom Bar */
 .bar {
@@ -183,20 +183,48 @@ footer {
   box-shadow: 4px 6px 0px 0px #000;
 }
 
-/* Event Section */
+/* =================== ******* Event Section ******================= */
 
 .event {
   border-radius: 40px;
   border: 8px solid var(--Style, #000);
   box-shadow: 11px 6px 0px 0px #000;
-}
-
-.event {
   background-image: url("/treasure.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.event-container {
+  @apply my-10 md:my-12 lg:my-16 xl:my-20 2xl:my-0 2xl:h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 
+  flex flex-col justify-center items-center gap-5 md:gap-7 lg:gap-10 xl:gap-10;
+}
+
+.event-title {
+  @apply font-normal uppercase text-white font-creepster items-center text-4xl w-56 md:w-auto xl:text-6xl;
+}
+
+.event-subtitle {
+  @apply font-normal text-white font-jakarta text-center w-auto xl:w-3/5;
+}
+
+.event__image-container {
+  @apply w-full h-72 lg:h-80 xl:h-96 2xl:p-64;
+}
+
+.event__monster-container {
+  @apply bottom-48 lg:bottom-56 xl:bottom-60 2xl:bottom-96;
+}
+
+.event__elephant-monster {
+  @apply w-20 xl:w-28 2xl:w-32;
+}
+
+.event__button-container {
+  @apply flex gap-2 lg:gap-5 xl:gap-10;
+}
+
+/* =================== ******* End of Event Section ******================= */
 
 /* Pre-Footer */
 
