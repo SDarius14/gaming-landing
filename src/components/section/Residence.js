@@ -10,10 +10,10 @@ const Residence = () => {
     flex flex-col lg:flex-row justify-center items-center gap-7 md:gap-12 lg:gap-2"
       >
         <div className="flex flex-col gap-6 order-2 lg:order-1 mb-10 lg:my-20 my-0">
-          <h1 className="para font-creepster lg:w-0 text-5xl lg:text-7xl xl:text-8xl">
+          <h1 className="font-normal uppercase text-white font-creepster lg:w-0 text-5xl lg:text-7xl xl:text-8xl">
             Endless Possibilities
           </h1>
-          <p className="para2 font-jakarta lg:w-3/4 text-base lg:text-lg xl:text-xl">
+          <p className="font-normal text-white font-jakarta lg:w-3/4 text-base lg:text-lg xl:text-xl">
             Cozy up in your uniquely decorated residence, sit and listen to
             insects around a campfire, embark on a fishing trip with friends, or
             become a talented alchemist.

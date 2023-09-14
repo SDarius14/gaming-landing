@@ -9,10 +9,10 @@ const Character = () => {
     flex flex-col justify-between lg:flex-row items-center"
       >
         <div className="order-2 lg:order-1 my-10 md:my-16 lg:my-20 flex flex-col gap-10 lg:w-4/12 text-center">
-          <h1 className="para font-creepster text-5xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
+          <h1 className="font-normal uppercase text-white font-creepster text-5xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
             Warrior
           </h1>
-          <p className="para2 font-jakarta text-base leading-snug">
+          <p className="font-normal text-white font-jakarta text-base leading-snug">
             Warriors have always held a special place in the world of gaming.
             From epic battles on distant planets to historic clashes in ancient
             realms, the gaming world is filled with iconic warrior characters

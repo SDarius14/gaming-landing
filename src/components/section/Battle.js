@@ -10,11 +10,11 @@ const Battle = () => {
     flex flex-col justify-center gap-12 "
       >
         <div className="gap-4 flex flex-col flex-wrap md:flex-row justify-between items-center text-center md:text-left">
-          <h1 className="para font-creepster text-5xl lg:w-2 lg:text-7xl xl:text-8xl">
+          <h1 className="font-normal uppercase text-white font-creepster text-5xl lg:w-2 lg:text-7xl xl:text-8xl">
             Countless Battles
           </h1>
           <div className="">
-            <p className="para2 font-jakarta lg:w-96 text-base lg:text-lg">
+            <p className="font-normal text-white font-jakarta lg:w-96 text-base lg:text-lg">
               Fight back the forces that threaten the world or test your might
               against other Adventurers. Lead your guild to victory in battle to
               earn great renown and greater wealth.

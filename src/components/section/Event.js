@@ -9,10 +9,10 @@ const Event = () => {
         className="my-10 md:my-12 lg:my-16 xl:my-20 2xl:my-0 2xl:h-screen mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 
     flex flex-col justify-center items-center gap-5 md:gap-7 lg:gap-10 xl:gap-10"
       >
-        <h1 className="para font-creepster items-center text-4xl w-56 md:w-auto xl:text-6xl">
+        <h1 className="font-normal uppercase text-white font-creepster items-center text-4xl w-56 md:w-auto xl:text-6xl">
           PRE REGISTER - NEW EVENT 2023
         </h1>
-        <h2 className="para2 font-jakarta text-center w-auto xl:w-3/5">
+        <h2 className="font-normal text-white font-jakarta text-center w-auto xl:w-3/5">
           Participate in the Pre-register event to be eligible for game item
           awards that will be given to all Monzy Forever Love players based on
           the milestone participation number.
