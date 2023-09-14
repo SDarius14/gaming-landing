@@ -15,10 +15,6 @@ body {
   background-position: top;
 }
 
-.char-background {
-  background-color: #7453c5;
-}
-
 .residence-background {
   background-color: #583b9e;
 }
@@ -224,7 +220,36 @@ footer {
   @apply flex gap-2 lg:gap-5 xl:gap-10;
 }
 
-/* =================== ******* End of Event Section ******================= */
+/* =================== ******* End of Event Section ******* ================= */
+
+/* =================== ******* Character Section ******* ================= */
+
+.char-background {
+  background-color: #7453c5;
+}
+
+.char-container {
+  @apply mx-auto w-10/12 2xl:h-screen md:max-w-xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-screen-xl
+  flex flex-col justify-between lg:flex-row items-center;
+}
+
+.char__warrior-container {
+  @apply order-2 lg:order-1 my-10 md:my-16 lg:my-20 flex flex-col gap-10 lg:w-4/12 text-center;
+}
+
+.char-title {
+  @apply font-normal uppercase text-white font-creepster text-5xl lg:text-7xl xl:text-8xl 2xl:text-9xl;
+}
+
+.char-subtitle {
+  @apply font-normal text-white font-jakarta text-base leading-snug;
+}
+
+.char__button-container {
+  @apply flex gap-5 mx-auto;
+}
+
+/* ============ ******* End of Character Section ******* ============= */
 
 /* Pre-Footer */
 
