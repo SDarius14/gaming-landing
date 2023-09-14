@@ -160,6 +160,7 @@ footer {
     width: 80px;
   }
 }
+/*End of Hero Button Responsive */
 
 /* ================****** End of Hero Section ******=============== */
 
@@ -251,6 +252,45 @@ footer {
 
 /* ============ ******* End of Character Section ******* ============= */
 
+/* =================== ******* Battle Section ******* ================= */
+
+.battle {
+  background-image: url("/dining.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40px;
+  border: 8px solid var(--Style, #000);
+  box-shadow: 11px 6px 0px 0px #000;
+}
+
+.battle-container {
+  @apply my-10 md:my-16 lg:my-20 mx-auto w-10/12 md:max-w-xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-screen-2xl
+  flex flex-col justify-center gap-12;
+}
+
+.battle__text-container {
+  @apply gap-4 flex flex-col flex-wrap md:flex-row justify-between items-center text-center md:text-left;
+}
+
+.battle_title {
+  @apply font-normal uppercase text-white font-creepster text-5xl lg:w-2 lg:text-7xl xl:text-8xl;
+}
+
+.battle_subtitle {
+  @apply font-normal text-white font-jakarta lg:w-96 text-base lg:text-lg;
+}
+
+.battle__image-container {
+  @apply w-full h-72 lg:h-96 md:p-48 xl:p-52 2xl:p-60;
+}
+
+.battle__monster-image {
+  @apply w-40 md:w-44 lg:w-72;
+}
+
+/* =================== ******* End of Battle Section ******* ================= */
+
 /* Pre-Footer */
 
 .pre-footer {
@@ -272,21 +312,6 @@ footer {
   background-size: cover;
 }
 
-/* Battle */
-
-.battle {
-  background-image: url("/dining.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.battle {
-  border-radius: 40px;
-  border: 8px solid var(--Style, #000);
-  box-shadow: 11px 6px 0px 0px #000;
-}
-
 /* Residence */
 
 .residence {
@@ -301,5 +326,3 @@ footer {
   border: 8px solid var(--Style, #000);
   box-shadow: 11px 6px 0px 0px #000;
 }
-
-/*End of  Hero Button Responsive */
