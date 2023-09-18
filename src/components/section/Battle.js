@@ -1,6 +1,7 @@
 import React from "react";
 import CustomButton from "../CustomButton";
 import CustomBar from "../CustomBar";
+import { battleDetails } from "../constant";
 
 const Battle = () => {
   const [
@@ -10,19 +11,7 @@ const Battle = () => {
       subtitle: battleSubtitle,
       imageUrlMonster: monsterImage,
     },
-  ] = [
-    {
-      title: "Learn More",
-      variant:
-        "font-jakarta primary-btn text-sm lg:text-base py-2 px-4 lg:py-4 lg:px-6 xl:w-40 mt-3 lg:mt-4",
-    },
-    {
-      title: "Countless Battles",
-      subtitle:
-        "Fight back the forces that threaten the world or test your might against other Adventurers. Lead your guild to victory in battle to earn great renown and greater wealth.",
-      imageUrlMonster: "/eelmonster.png",
-    },
-  ];
+  ] = battleDetails;
 
   return (
     <section>

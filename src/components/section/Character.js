@@ -1,28 +1,13 @@
 import React from "react";
 import CustomButton from "../CustomButton";
+import { eventDetails } from "../constant";
 
 const Character = () => {
   const [
     { title: buttonTextPlay, variant: buttonVariantPlay },
     { title: buttonTextRead, variant: buttonVariantRead },
     { title: charTitle, subtitle: charSubtitle },
-  ] = [
-    {
-      title: "Play Now",
-      variant:
-        "font-jakarta primary-btn xl:w-40 text-sm lg:text-base py-2 px-4 lg:py-4 lg:px-4",
-    },
-    {
-      title: "Read More",
-      variant:
-        "font-jakarta secondary-btn xl:w-40 text-sm lg:text-base py-2 px-4 lg:py-4 lg:px-3",
-    },
-    {
-      title: "Warrior",
-      subtitle:
-        "Warriors have always held a special place in the world of gaming. From epic battles on distant planets to historic clashes in ancient realms, the gaming world is filled with iconic warrior characters who have captured the hearts of players around the globe. Whether you prefer fantasy RPGs, intense first-person shooters, or strategy games, there's a warrior-themed game for everyone.",
-    },
-  ];
+  ] = eventDetails;
 
   return (
     <section className="char-background">
