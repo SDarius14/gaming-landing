@@ -1,6 +1,7 @@
 import React from "react";
 import CustomButton from "../CustomButton";
 import PreFooter from "../PreFooter";
+import { residenceDetails } from "../constant";
 
 const Residence = () => {
   const [
@@ -10,19 +11,7 @@ const Residence = () => {
       subtitle: residenceSubtitle,
       imageUrlMonster: monsterImage,
     },
-  ] = [
-    {
-      title: "See All",
-      variant:
-        "font-jakarta primary-btn text-sm lg:text-base py-2 px-4 lg:py-4 lg:px-6 xl:w-40",
-    },
-    {
-      title: "Endless Possibilities",
-      subtitle:
-        "Cozy up in your uniquely decorated residence, sit and listen to insects around a campfire, embark on a fishing trip with friends, or become a talented alchemist.",
-      imageUrlMonster: "/batmonster.png",
-    },
-  ];
+  ] = residenceDetails;
 
   return (
     <section className="residence-background">

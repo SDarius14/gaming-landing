@@ -10,6 +10,7 @@ import Character from "./section/Character";
 import Battle from "./section/Battle";
 import Residence from "./section/Residence";
 import PreFooter from "./PreFooter";
+import Contact from "./section/Contact";
 
 export {
   Navbar,
@@ -24,4 +25,5 @@ export {
   Battle,
   PreFooter,
   Residence,
+  Contact,
 };

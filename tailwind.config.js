@@ -7,9 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundColor: {
+        form: `#F0F0F0`,
+      },
       colors: {
         body: "#583B9E",
         secondary: "#7453C5",
+        tint: "#9ca7b6",
       },
       fontFamily: {
         creepster: ["Creepster", "cursive"],

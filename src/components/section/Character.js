@@ -1,13 +1,13 @@
 import React from "react";
 import CustomButton from "../CustomButton";
-import { eventDetails } from "../constant";
+import { characterDetails } from "../constant";
 
 const Character = () => {
   const [
     { title: buttonTextPlay, variant: buttonVariantPlay },
     { title: buttonTextRead, variant: buttonVariantRead },
     { title: charTitle, subtitle: charSubtitle },
-  ] = eventDetails;
+  ] = characterDetails;
 
   return (
     <section className="char-background">

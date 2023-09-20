@@ -1,6 +1,7 @@
 import React from "react";
 import CustomButton from "../CustomButton";
 import Image from "next/image";
+import { eventDetails } from "../constant";
 
 const Event = () => {
   const [
@@ -11,24 +12,7 @@ const Event = () => {
       subtitle: eventSubtitle,
       imageUrlMonster: monsterImage,
     },
-  ] = [
-    {
-      title: "Follow Event",
-      variant:
-        "text-font-jakarta primary-btn text-sm lg:text-base py-2 px-4 lg:py-4 lg:px-6 xl:w-40",
-    },
-    {
-      title: "Read More",
-      variant:
-        "font-jakarta secondary-btn text-sm lg:text-base py-2 px-4 lg:py-4 lg:px-6  xl:w-40",
-    },
-    {
-      title: "PRE REGISTER - NEW EVENT 2023",
-      subtitle:
-        "Participate in the Pre-register event to be eligible for game item awards that will be given to all Monzy Forever Love players based on the milestone participation number.",
-      imageUrlMonster: "/elephantmonster.png",
-    },
-  ];
+  ] = eventDetails;
 
   return (
     <section>

@@ -380,3 +380,50 @@ footer {
 }
 
 /* =================== ******* End of Pre-Footer Section ******* ================= */
+
+/* Contact Page */
+
+/* text */
+.form-text {
+  top: 20%;
+  right: 70%;
+}
+
+.form-mail {
+  top: 20%;
+  right: 90%;
+}
+
+.form-message {
+  top: 8%;
+  right: 87%;
+}
+
+/* icon */
+
+.icon-text {
+  top: 20%;
+  right: 10%;
+}
+
+.icon-mail {
+  top: 20%;
+  right: 5%;
+}
+
+.icon-message {
+  top: 8%;
+  right: 5%;
+}
+
+.small-label {
+  font-size: 12px;
+  transform: translateY(-8px) translateX(-10px);
+  /* color: #888; */
+  color: #57afcc;
+  transition: 0.3s;
+}
+
+.input-wrap input[name="FirstName"]:focus {
+  border-color: blue; /* Change to the desired border color */
+}

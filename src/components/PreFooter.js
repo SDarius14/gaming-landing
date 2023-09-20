@@ -1,14 +1,9 @@
 import React from "react";
-import Image from "next/image";
+import { preFooterDetails } from "./constant";
 
 const PreFooter = () => {
-  const [{ title: preFooterTitle, subtitle: preFooterSubtitle }] = [
-    {
-      title: "Embark on your adventure.",
-      subtitle:
-        " Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-    },
-  ];
+  const [{ title: preFooterTitle, subtitle: preFooterSubtitle }] =
+    preFooterDetails;
   return (
     <section className="pre-footer__container">
       <div className="pre-footer__container-content">
